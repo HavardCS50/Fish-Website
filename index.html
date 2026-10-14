@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="logoanimation.js"></script>
+        <title>Fins & Fishes</title>
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-dark navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" id = "logo">
+                    <img src="blue.png" alt="Logo" width="30" height="30">
+                </a>
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Hamburger functions -->
+                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Fish & Feathers</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!-- Nav items -->
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-auto">
+                                <a class="nav-link" href="fishes.html">Fishes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Homepage -->
+        <div id="homepage">
+            <h1 class="mt-5">
+                This is Fins & Feathers
+            </h1>
+            <a href="fishes.html">
+                <button type="button" class="btn btn-outline-light btn-lg px-5 rounded-pill fw-bold mt-2" id="picture-btn">
+                    SEE OUR FISHES
+                </button>
+            </a>
+        </div>
+
+    </body>
+</html>

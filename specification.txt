@@ -1,0 +1,23 @@
+HTML tags
+i. ul
+ii. li
+iii. p
+iv. div
+v. h1
+vi. img
+vii. a
+Viii. button
+ix. nav
+x. script
+
+CSS properties
+i. body
+ii. #homepage
+iii. h1
+iv. #price-tag
+v. #desc
+
+Javascript & Bootstrap
+I used bootstrap for navbar and quality of life classes, and I used Javascript to make my logo grow big when hovered on.
+
+also my pictures aren't being submitted by submit50
